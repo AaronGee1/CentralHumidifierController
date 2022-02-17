@@ -1,0 +1,7 @@
+[Unit]
+Description=Humidifier service
+
+[Service]
+User=pi
+Restart=always
+ExecStart=/usr/bin/python3 -u /home/pi/Desktop/projects/ecobeeSmartThermostat/ecobee.py
